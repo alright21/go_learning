@@ -129,4 +129,25 @@ func main(){
 	}
 
 	fmt.Println(arr2D)
+
+
+	// slices -> lists in Python
+
+	s := make([] int, 5)
+
+	fmt.Println(len(s))
+
+	s = append(s, 5)
+
+	fmt.Println(len(s))
+
+	// copy a slice
+	c := make([]int, len(s))
+
+	copy(c,s)
+
+	fmt.Println(c)
+
+	fmt.Println(c[1:4])
+
 }
