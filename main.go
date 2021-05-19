@@ -150,4 +150,21 @@ func main(){
 
 	fmt.Println(c[1:4])
 
+
+	// Maps -> dictionaries in Python
+
+	m := make(map[string]int)
+
+	m["key1"] = 10
+	m["key2"] = 20
+
+	fmt.Println(m)
+
+	value, present := m["Not existent"]
+
+	fmt.Println(value)
+	fmt.Println(present)
+
+	delete(m, "key1")
+
 }
