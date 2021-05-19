@@ -102,5 +102,31 @@ func main(){
 		fmt.Println(x)
 	}
 
+
+	// COLLECTIONS
+
+	// Arrays
+	var arr1[5] int 
+	// OR arr1 := [5]int 
+	// OR arr1:= [5]int{1,2}
 	
+
+	arr1[1] = 20
+	arr1[4] = 5
+	fmt.Println(arr1)
+	fmt.Println(arr1[4])
+	//length
+	fmt.Println(len(arr1))
+
+	// 2D
+
+	var arr2D[4][5] int
+
+	for i:=0; i<4; i++{
+		for j:=0; j<5; j++{
+			arr2D[i][j] = i*j
+		}
+	}
+
+	fmt.Println(arr2D)
 }
