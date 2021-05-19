@@ -57,6 +57,14 @@ func main(){
 	a*=3
 	a/=9
 
+	//INPUT
+
+	var myinput int
+
+	fmt.Println("Please enter a number: ")
+	fmt.Scan(&myinput)
+
+	fmt.Printf("Your number was %d\n", myinput)
 
 	
 }
