@@ -66,5 +66,26 @@ func main(){
 
 	fmt.Printf("Your number was %d\n", myinput)
 
+	//CONDITIONS
+
+	// if statements
+	if myinput < 100 {
+		fmt.Println("less than 100")
+	}else if myinput < 200 {
+		fmt.Println("less than 200")
+	}else {
+		fmt.Println("too large")
+	}
+
+	// switch statements
+	switch myinput {
+	case 10:
+		fmt.Println("numer is 10")
+	case 20:
+		fmt.Println("number is 20")
+	default:
+		fmt.Println("unlucky")
+	}
+
 	
 }
