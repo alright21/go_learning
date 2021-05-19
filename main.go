@@ -87,5 +87,20 @@ func main(){
 		fmt.Println("unlucky")
 	}
 
+	// LOOPS
+
+	// while loops
+	i:=0 
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
+
+	// for loops
+	for x:=0; x < 5; x++ {
+
+		fmt.Println(x)
+	}
+
 	
 }
