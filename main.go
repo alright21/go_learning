@@ -28,5 +28,35 @@ func main(){
 	//booleans
 	t:=true
 	fmt.Println(t)
+
+	//OPERATORS
+
+	//logical operators
+	fmt.Println(true && true)
+	fmt.Println(true || false)
+	fmt.Println(!true)
+
+	//assignemt
+	a:=10
+
+	a = 20
+
+	fmt.Println(a)
+
+	//incerement/decrement
+
+	a++
+	a--
+
+	fmt.Println(a)
+
+	//aritmetic operators
+
+	a+=1
+	a-=2
+	a*=3
+	a/=9
+
+
 	
 }
