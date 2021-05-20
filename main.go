@@ -7,6 +7,9 @@ import (
 
 
 func main(){
+
+	// ### Basics, Variable, Loops - Go Programming Tutorial #2
+
 	// simple hello world in GO
 	fmt.Println("Hello World")
 
@@ -102,6 +105,7 @@ func main(){
 		fmt.Println(x)
 	}
 
+	// ### Arrays, Slices, Maps - Go Programming Tutorial #3
 
 	// COLLECTIONS
 
