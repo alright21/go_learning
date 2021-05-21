@@ -39,6 +39,15 @@ func main(){
 
 	time.Sleep(2 * time.Second)
 
+	// buffer channel
+	buffer := make(chan string, 5)
+
+	buffer <- "Hello world"
+	buffer <- "Hi"
+	buffer <- "Bye"
+	buffer <- "123"
+	buffer <- "dsfdsa"
+	// buffer <- "Deadlock"
 
 
 }
